@@ -1,0 +1,33 @@
+org 0h
+	 BANKSEL ANSELC ;Prepare port a and b
+	 CLRF ANSELC
+	 BANKSEL ANSELB
+	 CLRF ANSELB
+	 SETF TRISC	;set portc as input
+	 CLRF TRISB     ; b as output.
+AGAIN	BTFSS PORTC,0   ; checking portc rc0 pin 
+	BRA AGAIN       ; if it is zero go to AGAIN, otherwise continue
+	CALL DELAY	; putting 0.5 s delay
+LOOP	BSF PORTB,0     ; set portb rb0
+	CALL DELAY      ; putting 0.5 s delay
+	BCF PORTB,0	; clear portb rb0
+	BSF PORTB,1     ; set portb pb1
+	CALL DELAY      ; putting 0.5 delay
+	BCF PORTB,1     ; clear portb rb1
+	GOTO LOOP       ; loop to make red-yellow-red-yellow
+	 ;-----------delay subroutine
+DELAY	MOVLW .255
+	MOVWF 0X0C
+LOOP_1  MOVLW .255
+	MOVWF 0X0D
+LOOP_0  NOP
+	NOP
+	NOP
+	NOP
+	NOP
+	DECFSZ 0X0D,F
+	GOTO LOOP_0
+	DECFSZ 0X0C,F
+	GOTO LOOP_1
+	RETURN
+	END

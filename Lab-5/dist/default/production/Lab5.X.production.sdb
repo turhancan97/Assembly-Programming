@@ -1,0 +1,173 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Users\asus\Desktop\Mikro Lablar\Lab.5\Lab5.X\lab5_Soru2.c
+[v _main main `(v  1 e 1 0 ]
+"6280 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f45k22.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+[s S28 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"6365
+[s S37 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+]
+[s S44 . 1 `uc 1 C12IN0M 1 0 :1:0 
+`uc 1 C12IN1M 1 0 :1:1 
+`uc 1 C2INP 1 0 :1:2 
+`uc 1 C1INP 1 0 :1:3 
+`uc 1 C1OUT 1 0 :1:4 
+`uc 1 C2OUT 1 0 :1:5 
+]
+[s S51 . 1 `uc 1 C12IN0N 1 0 :1:0 
+`uc 1 C12IN1N 1 0 :1:1 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 SS 1 0 :1:5 
+]
+[s S58 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS 1 0 :1:5 
+]
+[s S61 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFN 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SRQ 1 0 :1:4 
+`uc 1 nSS 1 0 :1:5 
+]
+[s S67 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CVREF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S72 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 DACOUT 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S77 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SS1 1 0 :1:5 
+]
+[s S80 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS1 1 0 :1:5 
+]
+[s S83 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 nSS1 1 0 :1:5 
+]
+[s S86 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRNQ 1 0 :1:5 
+]
+[s S89 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S93 . 1 `S28 1 . 1 0 `S37 1 . 1 0 `S44 1 . 1 0 `S51 1 . 1 0 `S58 1 . 1 0 `S61 1 . 1 0 `S67 1 . 1 0 `S72 1 . 1 0 `S77 1 . 1 0 `S80 1 . 1 0 `S83 1 . 1 0 `S86 1 . 1 0 `S89 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES93  1 e 1 @3968 ]
+"6565
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"8060
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"8282
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"10 C:\Users\asus\Desktop\Mikro Lablar\Lab.5\Lab5.X\lab5_Soru2.c
+[v _main main `(v  1 e 1 0 ]
+{
+"670
+[v main@i_223 i `i  1 a 2 56 ]
+"647
+[v main@i_222 i `i  1 a 2 54 ]
+"624
+[v main@i_221 i `i  1 a 2 52 ]
+"601
+[v main@i_220 i `i  1 a 2 50 ]
+"578
+[v main@i_219 i `i  1 a 2 48 ]
+"555
+[v main@i_218 i `i  1 a 2 46 ]
+"532
+[v main@i_217 i `i  1 a 2 44 ]
+"509
+[v main@i_216 i `i  1 a 2 42 ]
+"485
+[v main@i_215 i `i  1 a 2 40 ]
+"461
+[v main@i_214 i `i  1 a 2 38 ]
+"438
+[v main@i_213 i `i  1 a 2 36 ]
+"414
+[v main@i_212 i `i  1 a 2 34 ]
+"390
+[v main@i_211 i `i  1 a 2 32 ]
+"366
+[v main@i_210 i `i  1 a 2 30 ]
+"342
+[v main@i_209 i `i  1 a 2 28 ]
+"318
+[v main@i_208 i `i  1 a 2 26 ]
+"294
+[v main@i_207 i `i  1 a 2 24 ]
+"270
+[v main@i_206 i `i  1 a 2 22 ]
+"247
+[v main@i_205 i `i  1 a 2 20 ]
+"224
+[v main@i_204 i `i  1 a 2 18 ]
+"201
+[v main@i_203 i `i  1 a 2 16 ]
+"177
+[v main@i_202 i `i  1 a 2 14 ]
+"153
+[v main@i_201 i `i  1 a 2 12 ]
+"129
+[v main@i_200 i `i  1 a 2 10 ]
+"105
+[v main@i_199 i `i  1 a 2 8 ]
+"81
+[v main@i_198 i `i  1 a 2 6 ]
+"57
+[v main@i_197 i `i  1 a 2 4 ]
+"33
+[v main@i i `i  1 a 2 2 ]
+"14
+[v main@seg seg `[28]ui  1 a 56 58 ]
+"13
+[v main@flow flow `uc  1 s 1 flow ]
+[v main@F5954 F5954 `[28]ui  1 s 56 F5954 ]
+"698
+} 0
